@@ -1,26 +1,24 @@
 installer.
 
+
 #!/data/data/com.termux/files/usr/bin/bash
-#
-# PHB God-Code Vortex Full Installer for Termux
-#
 set -e
 
-# ------------------------------
-# Configuration
-# ------------------------------
+# =========================================
+# PHB God-Code Vortex Full Installer (Silent Mode)
+# =========================================
+
 HOME_DIR="$HOME"
 RESTORE_DIR="$HOME_DIR/.phb_restore"
 BIN_DIR="$HOME_DIR/bin"
 ENGINES_DIR="$HOME_DIR/engines"
+SCRIPTS_DIR="$HOME_DIR/scripts"
 VORTEX_DIR="$HOME_DIR/phb-godcode-vortex"
 
 GCS_BACKUP_URL="https://github.com/jvoidial/god-code-phb-system-AI-system/raw/main/gcs_backup_20250628_221031.tar.gz"
 ROOTLESS_BACKUP_URL="https://github.com/jvoidial/phb-gcs-rootless_phone_system_0dayvoid/raw/main/rootless_tree_backup_20250703.zip"
 VORTEX_REPO="https://github.com/jvoidial/phb-godcode-vortex.git"
 
-# ------------------------------
-# Helper function: safe copy
 # ------------------------------
 safe_copy() {
     local src="$1"
@@ -32,25 +30,21 @@ safe_copy() {
     fi
 }
 
-# ------------------------------
-# Start Installation
-# ------------------------------
-echo "🚀 Installing PHB God-Code Vortex..."
+clear
+echo "╔════════════════════════════════════════╗"
+echo "║        PHB GOD-CODE VORTEX            ║"
+echo "║       Full Installer for Termux        ║"
+echo "╚════════════════════════════════════════╝"
+echo ""
 
-mkdir -p "$RESTORE_DIR" "$BIN_DIR" "$ENGINES_DIR"
+mkdir -p "$RESTORE_DIR" "$BIN_DIR" "$ENGINES_DIR" "$SCRIPTS_DIR"
 
-# ------------------------------
-# Download backups
-# ------------------------------
 echo "⬇️ Downloading GCS backup..."
 wget -q --show-progress "$GCS_BACKUP_URL" -O "$RESTORE_DIR/gcs_backup.tar.gz"
 
 echo "⬇️ Downloading rootless tree backup..."
 wget -q --show-progress "$ROOTLESS_BACKUP_URL" -O "$RESTORE_DIR/rootless_tree_backup.zip"
 
-# ------------------------------
-# Extract backups
-# ------------------------------
 echo "📦 Extracting GCS backup..."
 mkdir -p "$RESTORE_DIR/gcs"
 tar -xzf "$RESTORE_DIR/gcs_backup.tar.gz" -C "$RESTORE_DIR/gcs"
@@ -58,26 +52,16 @@ tar -xzf "$RESTORE_DIR/gcs_backup.tar.gz" -C "$RESTORE_DIR/gcs"
 echo "📦 Extracting rootless tree backup..."
 unzip -qo "$RESTORE_DIR/rootless_tree_backup.zip" -d "$RESTORE_DIR"
 
-# ------------------------------
-# Copy rootless tree components
-# ------------------------------
-echo "📁 Syncing rootless tools..."
+echo "🔁 Syncing rootless tools..."
 safe_copy "$RESTORE_DIR/rootless_tree/bin/." "$BIN_DIR"
 safe_copy "$RESTORE_DIR/rootless_tree/phb_scaffold/." "$ENGINES_DIR"
-
-for s in "$RESTORE_DIR/rootless_tree"/*.sh; do
-    [ -f "$s" ] && safe_copy "$s" "$BIN_DIR"
+for shfile in "$RESTORE_DIR/rootless_tree"/*.sh; do
+    [ -f "$shfile" ] && safe_copy "$shfile" "$BIN_DIR"
 done
 
-# ------------------------------
-# Copy GCS modules
-# ------------------------------
 echo "📁 Syncing GCS modules..."
 safe_copy "$RESTORE_DIR/gcs/." "$HOME_DIR/gcs_backup"
 
-# ------------------------------
-# Clone or update Vortex repo
-# ------------------------------
 if [ -d "$VORTEX_DIR/.git" ]; then
     echo "🌐 Updating existing phb-godcode-vortex repository..."
     git -C "$VORTEX_DIR" pull
@@ -86,55 +70,68 @@ else
     git clone "$VORTEX_REPO" "$VORTEX_DIR"
 fi
 
-# Copy scripts if repo has them
 if [ -d "$VORTEX_DIR/scripts" ]; then
     echo "📜 Syncing extra scripts..."
-    safe_copy "$VORTEX_DIR/scripts/." "$HOME_DIR/scripts"
+    safe_copy "$VORTEX_DIR/scripts/." "$SCRIPTS_DIR"
 fi
 
-# ------------------------------
-# Python + dependencies
-# ------------------------------
-echo "🐍 Installing Python..."
+echo "🐍 Installing Python + dependencies..."
 pkg install -y python
-
 if [ -f "$VORTEX_DIR/requirements.txt" ]; then
-    echo "📋 Installing Python requirements..."
     pip install --user -r "$VORTEX_DIR/requirements.txt" || true
 fi
 
 # ------------------------------
-# Add bin to PATH
-# ------------------------------
+# Patch phb_godcode_vortex.py for silent output
+PY_FILE="$VORTEX_DIR/phb_godcode_vortex.py"
+if [ -f "$PY_FILE" ]; then
+    echo "⚡ Patching Python script to silent mode..."
+    # Remove any ritual or banner prints
+    sed -i '/run_ritual()/d' "$PY_FILE"
+    sed -i '/RITUAL/d' "$PY_FILE"
+    sed -i '/Plasma Strength/d' "$PY_FILE"
+    sed -i '/Immortality/d' "$PY_FILE"
+    sed -i '/Blink Surge/d' "$PY_FILE"
+    sed -i '/QUARTET SEAL/d' "$PY_FILE"
+    sed -i '/avatar_package/d' "$PY_FILE"
+    sed -i '/Packet/d' "$PY_FILE"
+    sed -i '/Simulation complete/d' "$PY_FILE"
+    sed -i '/beamed to Alpha/d' "$PY_FILE"
+    # Ensure Rootless Helper line stays
+    if ! grep -q "PHB Rootless Helper Active" "$PY_FILE"; then
+        echo 'print("PHB Rootless Helper Active")' >> "$PY_FILE"
+        echo 'print("Extend this script to test exploits or environment variables.")' >> "$PY_FILE"
+    fi
+fi
+
 if ! grep -q "$BIN_DIR" "$HOME_DIR/.bashrc"; then
     echo "🔧 Adding $BIN_DIR to PATH..."
     echo "export PATH=\$PATH:$BIN_DIR" >> "$HOME_DIR/.bashrc"
     export PATH="$PATH:$BIN_DIR"
 fi
 
-# ------------------------------
-# Cleanup
-# ------------------------------
 rm -f "$RESTORE_DIR/gcs_backup.tar.gz" "$RESTORE_DIR/rootless_tree_backup.zip"
 
 # ------------------------------
-# Summary
-# ------------------------------
+# Completion banner
 echo ""
-echo "✅ Installation complete!"
-echo "📍 Vortex code → $VORTEX_DIR"
-echo "📍 GCS backup → $HOME_DIR/gcs_backup"
-echo "📍 Scripts → $BIN_DIR"
+echo "✅ PHB God-Code Vortex installation complete!"
+echo "✨ Silent mode active: only Rootless Tree info will display on launch."
 echo ""
-echo "📄 Available commands in $BIN_DIR:"
-ls -1 "$BIN_DIR"
+echo "Welcome to Termux!"
+echo "Docs: https://termux.dev/docs  •  Community: https://termux.dev/community"
+echo "Commands: pkg search <query>  •  pkg install <package>  •  pkg upgrade"
 echo ""
-echo "▶️ Run the system with:"
-echo "   python3 $VORTEX_DIR/phb_godcode_vortex.py"
+echo "╔══════════════════════════════════════════════════════════╗"
+echo "║               PHB GOD-CODE ROOTLESS TREE               ║"
+echo "║                        🖇️  SYMLINKED  🖇️                        ║"
+echo "╚══════════════════════════════════════════════════════════╝"
 echo ""
-echo "✨ Restart Termux or run ‘source ~/.bashrc’ to update PATH."
-
-
+echo "SYNCED PATH → $HOME_DIR"
+echo ""
+echo "PHB Rootless Helper Active"
+echo "Extend this script to test exploits or environment variables."
+echo ""
 
 # PHB God Code Vortex
 
