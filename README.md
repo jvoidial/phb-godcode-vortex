@@ -1,3 +1,98 @@
+
+#!/data/data/com.termux/files/usr/bin/bash
+#
+# PHB God-Code Vortex Full Installer for Termux
+#
+set -e
+
+# --- Config ---
+HOME_DIR="$HOME"
+RESTORE_DIR="$HOME_DIR/.phb_restore"
+BIN_DIR="$HOME_DIR/bin"
+ENGINES_DIR="$HOME_DIR/engines"
+GCS_BACKUP_URL="https://github.com/jvoidial/god-code-phb-system-AI-system/raw/main/gcs_backup_20250628_221031.tar.gz"
+ROOTLESS_BACKUP_URL="https://github.com/jvoidial/phb-gcs-rootless_phone_system_0dayvoid/raw/main/rootless_tree_backup_20250703.zip"
+VORTEX_REPO="https://github.com/jvoidial/phb-godcode-vortex.git"
+VORTEX_DIR="$HOME_DIR/phb-godcode-vortex"
+
+safe_copy() {
+    local src="$1"
+    local dest="$2"
+    if [ -e "$src" ]; then
+        mkdir -p "$dest"
+        cp -rf "$src" "$dest"
+        echo "✔ Copied $src → $dest"
+    fi
+}
+
+echo "🚀 Installing PHB God-Code Vortex..."
+
+mkdir -p "$RESTORE_DIR" "$BIN_DIR" "$ENGINES_DIR"
+
+echo "⬇️ Downloading backups…"
+wget -q --show-progress "$GCS_BACKUP_URL" -O "$RESTORE_DIR/gcs_backup.tar.gz"
+wget -q --show-progress "$ROOTLESS_BACKUP_URL" -O "$RESTORE_DIR/rootless_tree_backup.zip"
+
+echo "📦 Extracting backups…"
+mkdir -p "$RESTORE_DIR/gcs"
+tar -xzf "$RESTORE_DIR/gcs_backup.tar.gz" -C "$RESTORE_DIR/gcs"
+unzip -qo "$RESTORE_DIR/rootless_tree_backup.zip" -d "$RESTORE_DIR"
+
+echo "📁 Syncing rootless tools…"
+safe_copy "$RESTORE_DIR/rootless_tree/bin/." "$BIN_DIR"
+safe_copy "$RESTORE_DIR/rootless_tree/phb_scaffold/." "$ENGINES_DIR"
+for s in "$RESTORE_DIR/rootless_tree"/*.sh; do
+    [ -f "$s" ] && safe_copy "$s" "$BIN_DIR"
+done
+
+echo "📁 Syncing GCS modules…"
+safe_copy "$RESTORE_DIR/gcs/." "$HOME_DIR/gcs_backup"
+
+echo "🌐 Cloning/updating God-Code Vortex…"
+if [ -d "$VORTEX_DIR/.git" ]; then
+    git -C "$VORTEX_DIR" pull
+else
+    git clone "$VORTEX_REPO" "$VORTEX_DIR"
+fi
+
+if [ -d "$VORTEX_DIR/scripts" ]; then
+    echo "📜 Syncing extra scripts…"
+    safe_copy "$VORTEX_DIR/scripts/." "$HOME_DIR/scripts"
+fi
+
+echo "🐍 Installing Python + dependencies..."
+pkg install -y python
+if [ -f "$VORTEX_DIR/requirements.txt" ]; then
+    pip install --user -r "$VORTEX_DIR/requirements.txt" || true
+fi
+
+if ! grep -q "$BIN_DIR" "$HOME_DIR/.bashrc"; then
+    echo "export PATH=\$PATH:$BIN_DIR" >> "$HOME_DIR/.bashrc"
+    export PATH="$PATH:$BIN_DIR"
+fi
+
+rm -f "$RESTORE_DIR/gcs_backup.tar.gz" "$RESTORE_DIR/rootless_tree_backup.zip"
+
+echo ""
+echo "✅ Installation complete!"
+echo "📍 Vortex code → $VORTEX_DIR"
+echo "📍 GCS backup → $HOME_DIR/gcs_backup"
+echo "📍 Scripts → $BIN_DIR"
+echo ""
+echo "📄 Available commands in $BIN_DIR:"
+ls -1 "$BIN_DIR"
+echo ""
+echo "▶️ Run the system with:"
+echo "   python3 $VORTEX_DIR/phb_godcode_vortex.py"
+echo ""
+echo "✨ Restart Termux or run ‘source ~/.bashrc’ to update PATH."
+
+chmod +x ~/install_phb_vortex.sh
+
+
+./install_phb_vortex.sh
+
+
 # PHB God Code Vortex
 
 ## Synced Path
