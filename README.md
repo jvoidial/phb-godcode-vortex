@@ -3,7 +3,7 @@
 ## Synced Path
 `/data/data/com.termux/files/home/phb-godcode-vortex`
 
-## Full Termux System Tree (including hidden files)
+## Full Termux System Tree (including hidden & empty directories)
 ```
 /data/data/com.termux/files/home/phb-godcode-vortex:
 .
@@ -75,20 +75,25 @@ main
 /data/data/com.termux/files/home/phb-godcode-vortex/.git/logs/refs/remotes:
 .
 ..
+.gitkeep
 
 /data/data/com.termux/files/home/phb-godcode-vortex/.git/objects:
 .
 ..
 17
+1a
+26
 27
 37
 39
 5a
+5c
 60
 64
 6b
 7f
 86
+8d
 93
 94
 99
@@ -107,6 +112,16 @@ pack
 .
 ..
 88912e43b967a7d9b03e652e5f628dfbab9a16
+
+/data/data/com.termux/files/home/phb-godcode-vortex/.git/objects/1a:
+.
+..
+3bd812de11de9ff4c09d175ce0d84decb24963
+
+/data/data/com.termux/files/home/phb-godcode-vortex/.git/objects/26:
+.
+..
+bb9b0247b6f1249733c6cb16c8756268263876
 
 /data/data/com.termux/files/home/phb-godcode-vortex/.git/objects/27:
 .
@@ -128,6 +143,11 @@ f3e97f61f2d903d7a69afab3220b1b1c9dda49
 .
 ..
 8da730f03188e88988c686ce0bc91a5bae7322
+
+/data/data/com.termux/files/home/phb-godcode-vortex/.git/objects/5c:
+.
+..
+bb63cdb16c4d198386983fd454c9a4ffffe695
 
 /data/data/com.termux/files/home/phb-godcode-vortex/.git/objects/60:
 .
@@ -153,6 +173,11 @@ e203a2ea6ad31d3ce7d5d3f712ba978337dfda
 .
 ..
 18d3c858a101aa7971abde6af7e5dba6b7ceff
+
+/data/data/com.termux/files/home/phb-godcode-vortex/.git/objects/8d:
+.
+..
+3163d62b26a60f2437d00d006c7ba16fe97375
 
 /data/data/com.termux/files/home/phb-godcode-vortex/.git/objects/93:
 .
@@ -212,10 +237,12 @@ cbb6414259863df3d89124e0c51f73aef6f01c
 /data/data/com.termux/files/home/phb-godcode-vortex/.git/objects/info:
 .
 ..
+.gitkeep
 
 /data/data/com.termux/files/home/phb-godcode-vortex/.git/objects/pack:
 .
 ..
+.gitkeep
 
 /data/data/com.termux/files/home/phb-godcode-vortex/.git/refs:
 .
@@ -232,10 +259,12 @@ main
 /data/data/com.termux/files/home/phb-godcode-vortex/.git/refs/remotes:
 .
 ..
+.gitkeep
 
 /data/data/com.termux/files/home/phb-godcode-vortex/.git/refs/tags:
 .
 ..
+.gitkeep
 
 /data/data/com.termux/files/home/phb-godcode-vortex/gcs:
 .
@@ -247,10 +276,12 @@ scripts
 /data/data/com.termux/files/home/phb-godcode-vortex/gcs/data:
 .
 ..
+.gitkeep
 
 /data/data/com.termux/files/home/phb-godcode-vortex/gcs/output:
 .
 ..
+.gitkeep
 
 /data/data/com.termux/files/home/phb-godcode-vortex/gcs/scripts:
 .
