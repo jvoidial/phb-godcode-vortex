@@ -1,42 +1,63 @@
 installer.
 
-
 #!/data/data/com.termux/files/usr/bin/bash
-# PHB God-Code Vortex Installer — Fully Silent, No Ritual Messages
+# PHB God-Code Vortex Installer — Fully Silent, Clean, Manual
 
-# Update Termux packages silently
-pkg update -y
-pkg upgrade -y
+# Update Termux packages quietly
+pkg update -y >/dev/null 2>&1
+pkg upgrade -y >/dev/null 2>&1
 
-# Install Python and git silently
-pkg install python git -y
+# Install Python3 and git quietly
+pkg install python git -y >/dev/null 2>&1
 
-# Create GCS directories silently
+# Create GCS directories safely
 mkdir -p ~/gcs/data
 mkdir -p ~/phb-godcode-vortex
 
-# Clone or update repo silently
+# Clone repo if not exist, else update
 if [ -d "$HOME/phb-godcode-vortex/.git" ]; then
     cd ~/phb-godcode-vortex
-    git pull -q
+    git pull >/dev/null 2>&1
 else
-    git clone -q https://github.com/jvoidial/phb-godcode-vortex.git ~/phb-godcode-vortex
+    git clone https://github.com/jvoidial/phb-godcode-vortex.git ~/phb-godcode-vortex >/dev/null 2>&1
 fi
 
 cd ~/phb-godcode-vortex
 
-# Fix Python escape sequences (\~ → ~)
-sed -i 's|\\~|~|g' phb_godcode_vortex.py
+# Replace Python script with silent manual version
+cat <<'EOF' > phb_godcode_vortex.py
+#!/usr/bin/env python3
+import os
 
-# Remove all ritual-related code/messages
-sed -i '/Ritual execution/d' phb_godcode_vortex.py
-sed -i '/ritual_execution/d' phb_godcode_vortex.py
+gcs_path = os.path.expanduser("~/gcs/data")
+os.makedirs(gcs_path, exist_ok=True)
 
-# Make main script executable
+def rootless_helper_active():
+    print("PHB Rootless Helper Active")
+
+def main():
+    rootless_helper_active()
+    print("PHB God-Code Vortex Ready. Manual commands only.")
+    avatar_file = os.path.join(gcs_path, "avatar_package.entglx")
+    if os.path.exists(avatar_file):
+        print(f"[📦] Found avatar package: {avatar_file}")
+    else:
+        print("[📦] No avatar package found. Place files manually.")
+
+if __name__ == "__main__":
+    main()
+EOF
+
 chmod +x phb_godcode_vortex.py
 
-# Launch the PHB God-Code Vortex silently
-python ~/phb-godcode-vortex/phb_godcode_vortex.py
+# Done
+echo "PHB God-Code Vortex Installed — Manual Launch Only."
+echo "Run: python ~/phb-godcode-vortex/phb_godcode_vortex.py"
+
+
+
+
+
 
 
 # PHB God Code Vortex
