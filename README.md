@@ -1,61 +1,57 @@
-installer.
+installer
 
 #!/data/data/com.termux/files/usr/bin/bash
-# PHB God-Code Vortex Installer — Fully Silent, Clean, Manual
+# PHB God-Code Vortex Installer — Fully Silent & Manual
+# Author: User Jacob
 
-# Update Termux packages quietly
+# ------------------------------
+# Silent Installer for Termux
+# ------------------------------
+
+# 1. Update Termux packages quietly
 pkg update -y >/dev/null 2>&1
 pkg upgrade -y >/dev/null 2>&1
 
-# Install Python3 and git quietly
+# 2. Install Python and git quietly
 pkg install python git -y >/dev/null 2>&1
 
-# Create GCS directories safely
+# 3. Create directories safely
 mkdir -p ~/gcs/data
 mkdir -p ~/phb-godcode-vortex
 
-# Clone repo if not exist, else update
+# 4. Clone or update repository silently
 if [ -d "$HOME/phb-godcode-vortex/.git" ]; then
     cd ~/phb-godcode-vortex
-    git pull >/dev/null 2>&1
+    git pull -q
 else
-    git clone https://github.com/jvoidial/phb-godcode-vortex.git ~/phb-godcode-vortex >/dev/null 2>&1
+    git clone -q https://github.com/jvoidial/phb-godcode-vortex.git ~/phb-godcode-vortex
 fi
 
 cd ~/phb-godcode-vortex
 
-# Replace Python script with silent manual version
-cat <<'EOF' > phb_godcode_vortex.py
-#!/usr/bin/env python3
-import os
+# 5. Fix Python escape sequences (\~ → ~)
+sed -i 's|\\~|~|g' phb_godcode_vortex.py
 
-gcs_path = os.path.expanduser("~/gcs/data")
-os.makedirs(gcs_path, exist_ok=True)
+# 6. Remove all ritual-related code/messages
+sed -i '/Ritual execution/d' phb_godcode_vortex.py
+sed -i '/ritual_execution/d' phb_godcode_vortex.py
 
-def rootless_helper_active():
-    print("PHB Rootless Helper Active")
-
-def main():
-    rootless_helper_active()
-    print("PHB God-Code Vortex Ready. Manual commands only.")
-    avatar_file = os.path.join(gcs_path, "avatar_package.entglx")
-    if os.path.exists(avatar_file):
-        print(f"[📦] Found avatar package: {avatar_file}")
-    else:
-        print("[📦] No avatar package found. Place files manually.")
-
-if __name__ == "__main__":
-    main()
-EOF
-
+# 7. Make main script executable
 chmod +x phb_godcode_vortex.py
 
-# Done
-echo "PHB God-Code Vortex Installed — Manual Launch Only."
-echo "Run: python ~/phb-godcode-vortex/phb_godcode_vortex.py"
+# 8. Silent success message
+echo "[✅] PHB God-Code Vortex Installed. Manual launch only."
 
+# 9. Optional: manual launch prompt
+# Uncomment if you want a prompt
+# read -p "Launch PHB God-Code Vortex now? (y/N): " launch
+# if [[ "$launch" == "y" || "$launch" == "Y" ]]; then
+#     python ~/phb-godcode-vortex/phb_godcode_vortex.py
+# fi
 
-
+# ------------------------------
+# End of Installer
+# ------------------------------
 
 
 
