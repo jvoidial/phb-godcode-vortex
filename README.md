@@ -1,53 +1,41 @@
 installer.
 
+
 #!/data/data/com.termux/files/usr/bin/bash
-# PHB God-Code Vortex Full Patched Installer + Fixed Escape + No Ritual Logs
-# Author: ChatGPT / User Jacob
+# PHB God-Code Vortex Installer — Fully Silent, No Ritual Messages
 
-echo "[🧬] Starting PHB God-Code Vortex Installer..."
-
-# Update Termux packages
-echo "[⚙️] Updating Termux packages..."
+# Update Termux packages silently
 pkg update -y
 pkg upgrade -y
 
-# Install Python and git
-echo "[⚙️] Installing Python and git..."
+# Install Python and git silently
 pkg install python git -y
 
-# Create GCS directories safely
-echo "[📂] Creating necessary directories..."
+# Create GCS directories silently
 mkdir -p ~/gcs/data
 mkdir -p ~/phb-godcode-vortex
 
-# Clone or update repo
+# Clone or update repo silently
 if [ -d "$HOME/phb-godcode-vortex/.git" ]; then
-    echo "[📦] Updating existing repo..."
     cd ~/phb-godcode-vortex
-    git pull
+    git pull -q
 else
-    echo "[📦] Cloning PHB God-Code Vortex repository..."
-    git clone https://github.com/jvoidial/phb-godcode-vortex.git ~/phb-godcode-vortex
+    git clone -q https://github.com/jvoidial/phb-godcode-vortex.git ~/phb-godcode-vortex
 fi
 
 cd ~/phb-godcode-vortex
 
-# Fix Python escape sequences properly
-echo "[🛠️] Fixing Python path escape sequences..."
+# Fix Python escape sequences (\~ → ~)
 sed -i 's|\\~|~|g' phb_godcode_vortex.py
 
-# Disable ritual logging entirely
-echo "[🛠️] Removing ritual execution messages..."
-sed -i 's/print("Ritual execution.*")/# \0/g' phb_godcode_vortex.py
-sed -i 's/ritual_execution_disabled = False/ritual_execution_disabled = True/' phb_godcode_vortex.py
+# Remove all ritual-related code/messages
+sed -i '/Ritual execution/d' phb_godcode_vortex.py
+sed -i '/ritual_execution/d' phb_godcode_vortex.py
 
 # Make main script executable
 chmod +x phb_godcode_vortex.py
 
-echo "[✅] PHB God-Code Vortex Installer Complete!"
-echo "[🚀] Launching PHB God-Code Vortex now..."
-
-# Auto-launch the script silently (no ritual messages)
+# Launch the PHB God-Code Vortex silently
 python ~/phb-godcode-vortex/phb_godcode_vortex.py
 
 
