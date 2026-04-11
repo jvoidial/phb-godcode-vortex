@@ -1,0 +1,168 @@
+{
+  "timestamp": "Sat Apr 11 07:23:23 2026",
+  "vitruvian_state": [
+    51.0,
+    0.9323850703432185,
+    0.8937493222007789
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "time": 12.0,
+      "coherence": 0.6782326362608068,
+      "stability": 1.133524681479309,
+      "resonance": 0.28261303625534184,
+      "sequence": [
+        "CIRCLE",
+        "SQUARE",
+        "TRIANGLE",
+        "RATIO",
+        "LIGHT",
+        "SHADOW",
+        "MIRROR"
+      ],
+      "portal": "PORTAL: RESONANCE ARCH",
+      "voxels": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "symbol": "CIRCLE",
+          "meaning": "origin, cycles, unity"
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "symbol": "SQUARE",
+          "meaning": "structure, boundaries, grounding"
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 2,
+          "symbol": "TRIANGLE",
+          "meaning": "transformation, direction, change"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "z": 3,
+          "symbol": "RATIO",
+          "meaning": "proportion, balance, measure"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "z": 4,
+          "symbol": "LIGHT",
+          "meaning": "clarity, insight, revelation"
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "z": 5,
+          "symbol": "SHADOW",
+          "meaning": "contrast, depth, hidden aspects"
+        },
+        {
+          "x": 6,
+          "y": 0,
+          "z": 6,
+          "symbol": "MIRROR",
+          "meaning": "reflection, self-awareness, feedback"
+        }
+      ],
+      "veil": {
+        "thickness": 0.16088368186959667,
+        "phase": "THIN",
+        "breach_probability": 0.8391163181304033,
+        "narrative": "The veil is almost gone; states bleed into each other."
+      },
+      "energy": {
+        "magnitude": 0.8699100208819383,
+        "band": "MID",
+        "color": "LIGHT"
+      }
+    },
+    {
+      "page": 2,
+      "time": 40.0,
+      "coherence": 0.8950138106427792,
+      "stability": 1.112126421249436,
+      "resonance": 0.5765015273495988,
+      "sequence": [
+        "CIRCLE",
+        "SQUARE",
+        "TRIANGLE",
+        "RATIO",
+        "LIGHT",
+        "SHADOW",
+        "MIRROR"
+      ],
+      "portal": "GATE: VITRUVIAN SPHERE",
+      "voxels": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "symbol": "CIRCLE",
+          "meaning": "origin, cycles, unity"
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "symbol": "SQUARE",
+          "meaning": "structure, boundaries, grounding"
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 2,
+          "symbol": "TRIANGLE",
+          "meaning": "transformation, direction, change"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "z": 3,
+          "symbol": "RATIO",
+          "meaning": "proportion, balance, measure"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "z": 4,
+          "symbol": "LIGHT",
+          "meaning": "clarity, insight, revelation"
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "z": 5,
+          "symbol": "SHADOW",
+          "meaning": "contrast, depth, hidden aspects"
+        },
+        {
+          "x": 6,
+          "y": 0,
+          "z": 6,
+          "symbol": "MIRROR",
+          "meaning": "reflection, self-awareness, feedback"
+        }
+      ],
+      "veil": {
+        "thickness": 0.05249309467861041,
+        "phase": "THIN",
+        "breach_probability": 0.9475069053213896,
+        "narrative": "The veil is almost gone; states bleed into each other."
+      },
+      "energy": {
+        "magnitude": 1.410990639477326,
+        "band": "HIGH",
+        "color": "GOLDEN"
+      }
+    }
+  ]
+}
