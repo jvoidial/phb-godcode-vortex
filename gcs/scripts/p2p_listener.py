@@ -9,10 +9,7 @@ PORT = 5050
 
 print("[GCS LISTENER] Starting listener...")
 
-# Create socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
-# Allow immediate reuse of the port
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
 try:
@@ -37,7 +34,6 @@ while True:
         parsed = json.loads(data)
         print("[GCS LISTENER] JSON received (PHB evolution packet)")
 
-        # Save to shared network state
         Path("gcs/network_state.json").write_text(
             json.dumps(parsed, indent=2),
             encoding="utf-8"
@@ -50,7 +46,7 @@ while True:
     except json.JSONDecodeError:
         pass
 
-    # Fallback for non-JSON messages
+    # Fallback for non-JSON
     print(f"[GCS LISTENER] TEXT received: {data}")
     conn.sendall(b"[GCS LISTENER] OK: TEXT received\n")
     conn.close()
