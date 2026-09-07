@@ -1,1 +1,146 @@
-{"coherence": 0.999, "energy": 42.0, "custom_field": "hello"}
+{
+  "timestamp": "Mon Sep 07 05:47:56 2026",
+  "domain": "tokenomics",
+  "pages": [
+    {
+      "page": 1,
+      "time": 4,
+      "coherence": 0.769895,
+      "stability": 1.084663,
+      "resonance": 0.217432,
+      "sequence": [
+        "UNI",
+        "DAI",
+        "LINK",
+        "USDC",
+        "AAVE",
+        "ETH",
+        "BTC"
+      ],
+      "portal": "PORTAL: TOKENOMICS",
+      "voxels": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "symbol": "UNI",
+          "meaning": "UNI meaning for tokenomics"
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "symbol": "DAI",
+          "meaning": "DAI meaning for tokenomics"
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 2,
+          "symbol": "LINK",
+          "meaning": "LINK meaning for tokenomics"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "z": 3,
+          "symbol": "USDC",
+          "meaning": "USDC meaning for tokenomics"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "z": 4,
+          "symbol": "AAVE",
+          "meaning": "AAVE meaning for tokenomics"
+        }
+      ],
+      "veil": {
+        "thickness": 0.488763,
+        "phase": "TURBULENT",
+        "breach_probability": 0.798607,
+        "narrative": "The tokenomics veil is shifting: boundaries dissolve."
+      },
+      "energy": {
+        "magnitude": 1.257414,
+        "band": "MID",
+        "color": "LIGHT"
+      }
+    },
+    {
+      "page": 2,
+      "time": 7,
+      "coherence": 0.517485,
+      "stability": 1.084786,
+      "resonance": 0.396079,
+      "sequence": [
+        "USDC",
+        "DAI",
+        "LINK",
+        "AAVE",
+        "ETH",
+        "UNI",
+        "BTC"
+      ],
+      "portal": "PORTAL: TOKENOMICS",
+      "voxels": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "symbol": "USDC",
+          "meaning": "USDC meaning for tokenomics"
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "symbol": "DAI",
+          "meaning": "DAI meaning for tokenomics"
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 2,
+          "symbol": "LINK",
+          "meaning": "LINK meaning for tokenomics"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "z": 3,
+          "symbol": "AAVE",
+          "meaning": "AAVE meaning for tokenomics"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "z": 4,
+          "symbol": "ETH",
+          "meaning": "ETH meaning for tokenomics"
+        }
+      ],
+      "veil": {
+        "thickness": 0.420716,
+        "phase": "CLEAR",
+        "breach_probability": 0.742764,
+        "narrative": "The tokenomics veil is shifting: boundaries dissolve."
+      },
+      "energy": {
+        "magnitude": 1.486801,
+        "band": "HIGH",
+        "color": "NEUTRAL"
+      }
+    }
+  ],
+  "vitruvian_state": [
+    2,
+    0.9,
+    0.8
+  ],
+  "coherence": 0.517485,
+  "stability": 1.084786,
+  "energy": 1.486801,
+  "veil": "CLEAR",
+  "portal": 1.0
+}

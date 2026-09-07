@@ -1,0 +1,211 @@
+{
+  "timestamp": "Mon Sep 07 05:47:56 2026",
+  "domain": "cosmic",
+  "pages": [
+    {
+      "page": 1,
+      "time": 6,
+      "coherence": 0.617086,
+      "stability": 0.922141,
+      "resonance": 0.398376,
+      "sequence": [
+        "WOLF",
+        "CENTAURI",
+        "SERPO",
+        "TRAPPIST",
+        "PROXIMA",
+        "KEPLER",
+        "SIREN"
+      ],
+      "portal": "PORTAL: COSMIC",
+      "voxels": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "symbol": "WOLF",
+          "meaning": "WOLF meaning for cosmic"
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "symbol": "CENTAURI",
+          "meaning": "CENTAURI meaning for cosmic"
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 2,
+          "symbol": "SERPO",
+          "meaning": "SERPO meaning for cosmic"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "z": 3,
+          "symbol": "TRAPPIST",
+          "meaning": "TRAPPIST meaning for cosmic"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "z": 4,
+          "symbol": "PROXIMA",
+          "meaning": "PROXIMA meaning for cosmic"
+        }
+      ],
+      "veil": {
+        "thickness": 0.107196,
+        "phase": "TURBULENT",
+        "breach_probability": 0.805601,
+        "narrative": "The cosmic veil is shifting: states merge."
+      },
+      "energy": {
+        "magnitude": 0.845295,
+        "band": "MID",
+        "color": "DARK"
+      }
+    },
+    {
+      "page": 2,
+      "time": 8,
+      "coherence": 0.967204,
+      "stability": 0.879714,
+      "resonance": 0.312276,
+      "sequence": [
+        "SERPO",
+        "KEPLER",
+        "SIREN",
+        "PROXIMA",
+        "WOLF",
+        "CENTAURI",
+        "TRAPPIST"
+      ],
+      "portal": "PORTAL: COSMIC",
+      "voxels": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "symbol": "SERPO",
+          "meaning": "SERPO meaning for cosmic"
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "symbol": "KEPLER",
+          "meaning": "KEPLER meaning for cosmic"
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 2,
+          "symbol": "SIREN",
+          "meaning": "SIREN meaning for cosmic"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "z": 3,
+          "symbol": "PROXIMA",
+          "meaning": "PROXIMA meaning for cosmic"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "z": 4,
+          "symbol": "WOLF",
+          "meaning": "WOLF meaning for cosmic"
+        }
+      ],
+      "veil": {
+        "thickness": 0.301226,
+        "phase": "TURBULENT",
+        "breach_probability": 0.887332,
+        "narrative": "The cosmic veil is shifting: boundaries dissolve."
+      },
+      "energy": {
+        "magnitude": 1.231748,
+        "band": "LOW",
+        "color": "LIGHT"
+      }
+    },
+    {
+      "page": 3,
+      "time": 1,
+      "coherence": 0.821706,
+      "stability": 0.589445,
+      "resonance": 0.127506,
+      "sequence": [
+        "PROXIMA",
+        "CENTAURI",
+        "TRAPPIST",
+        "SERPO",
+        "WOLF",
+        "KEPLER",
+        "SIREN"
+      ],
+      "portal": "PORTAL: COSMIC",
+      "voxels": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "symbol": "PROXIMA",
+          "meaning": "PROXIMA meaning for cosmic"
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "symbol": "CENTAURI",
+          "meaning": "CENTAURI meaning for cosmic"
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 2,
+          "symbol": "TRAPPIST",
+          "meaning": "TRAPPIST meaning for cosmic"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "z": 3,
+          "symbol": "SERPO",
+          "meaning": "SERPO meaning for cosmic"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "z": 4,
+          "symbol": "WOLF",
+          "meaning": "WOLF meaning for cosmic"
+        }
+      ],
+      "veil": {
+        "thickness": 0.532587,
+        "phase": "CLEAR",
+        "breach_probability": 0.80179,
+        "narrative": "The cosmic veil is shifting: boundaries dissolve."
+      },
+      "energy": {
+        "magnitude": 0.946516,
+        "band": "MID",
+        "color": "LIGHT"
+      }
+    }
+  ],
+  "vitruvian_state": [
+    3,
+    0.9,
+    0.8
+  ],
+  "coherence": 0.821706,
+  "stability": 0.589445,
+  "energy": 0.946516,
+  "veil": "CLEAR",
+  "portal": 1.0
+}

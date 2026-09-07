@@ -1,0 +1,146 @@
+{
+  "timestamp": "Mon Sep 07 05:47:56 2026",
+  "domain": "consciousness",
+  "pages": [
+    {
+      "page": 1,
+      "time": 4,
+      "coherence": 0.50791,
+      "stability": 0.623884,
+      "resonance": 0.457577,
+      "sequence": [
+        "REALITY",
+        "DREAM",
+        "UNITY",
+        "AWARENESS",
+        "DUALITY",
+        "SELF",
+        "OTHER"
+      ],
+      "portal": "PORTAL: CONSCIOUSNESS",
+      "voxels": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "symbol": "REALITY",
+          "meaning": "REALITY meaning for consciousness"
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "symbol": "DREAM",
+          "meaning": "DREAM meaning for consciousness"
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 2,
+          "symbol": "UNITY",
+          "meaning": "UNITY meaning for consciousness"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "z": 3,
+          "symbol": "AWARENESS",
+          "meaning": "AWARENESS meaning for consciousness"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "z": 4,
+          "symbol": "DUALITY",
+          "meaning": "DUALITY meaning for consciousness"
+        }
+      ],
+      "veil": {
+        "thickness": 0.693076,
+        "phase": "THIN",
+        "breach_probability": 0.505985,
+        "narrative": "The consciousness veil is shifting: states merge."
+      },
+      "energy": {
+        "magnitude": 0.712565,
+        "band": "MID",
+        "color": "NEUTRAL"
+      }
+    },
+    {
+      "page": 2,
+      "time": 3,
+      "coherence": 0.783299,
+      "stability": 1.111867,
+      "resonance": 0.45249,
+      "sequence": [
+        "AWARENESS",
+        "UNITY",
+        "SELF",
+        "DUALITY",
+        "REALITY",
+        "DREAM",
+        "OTHER"
+      ],
+      "portal": "PORTAL: CONSCIOUSNESS",
+      "voxels": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "symbol": "AWARENESS",
+          "meaning": "AWARENESS meaning for consciousness"
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "symbol": "UNITY",
+          "meaning": "UNITY meaning for consciousness"
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 2,
+          "symbol": "SELF",
+          "meaning": "SELF meaning for consciousness"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "z": 3,
+          "symbol": "DUALITY",
+          "meaning": "DUALITY meaning for consciousness"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "z": 4,
+          "symbol": "REALITY",
+          "meaning": "REALITY meaning for consciousness"
+        }
+      ],
+      "veil": {
+        "thickness": 0.482797,
+        "phase": "SEALED",
+        "breach_probability": 0.861493,
+        "narrative": "The consciousness veil is shifting: patterns emerge."
+      },
+      "energy": {
+        "magnitude": 1.442407,
+        "band": "MID",
+        "color": "LIGHT"
+      }
+    }
+  ],
+  "vitruvian_state": [
+    2,
+    0.9,
+    0.8
+  ],
+  "coherence": 0.783299,
+  "stability": 1.111867,
+  "energy": 1.442407,
+  "veil": "SEALED",
+  "portal": 1.0
+}
