@@ -1,0 +1,10 @@
+{
+  "path": [
+    {"phase": 1, "name": "Foundation", "fdv": "$10M", "status": "in_progress"},
+    {"phase": 2, "name": "Growth", "fdv": "$100M", "status": "pending"},
+    {"phase": 3, "name": "Expansion", "fdv": "$1B", "status": "pending"},
+    {"phase": 4, "name": "Major Adoption", "fdv": "$10B", "status": "pending"},
+    {"phase": 5, "name": "Global Scale", "fdv": "$1T", "status": "pending"},
+    {"phase": 6, "name": "Quadrillion", "fdv": "$10,000T", "status": "pending"}
+  ]
+}

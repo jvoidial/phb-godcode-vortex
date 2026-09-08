@@ -1,0 +1,38 @@
+{
+  "predictions": {
+    "PENNIES": {
+      "current_price": 2.580874931e-15,
+      "current_liquidity": 0.04087214046807175,
+      "needs": [
+        "Add $99.96 liquidity",
+        "Increase trading volume"
+      ]
+    },
+    "PIDX": {
+      "current_price": 0.00644611792,
+      "current_liquidity": 0.073636508438521,
+      "needs": [
+        "Add $99.93 liquidity",
+        "Increase trading volume"
+      ]
+    },
+    "SGUIDE": {
+      "current_price": 2.501999445e-05,
+      "current_liquidity": 0.02494567539161097,
+      "needs": [
+        "Add $99.98 liquidity",
+        "Increase trading volume"
+      ]
+    },
+    "VDOO": {
+      "current_price": 0.0,
+      "current_liquidity": 0.024945661313351995,
+      "needs": [
+        "Add $99.98 liquidity",
+        "Increase trading volume",
+        "Get price discovery (liquidity needed)"
+      ]
+    }
+  },
+  "timestamp": 1788240678.683636
+}

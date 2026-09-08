@@ -1,0 +1,26 @@
+{
+  "ecosystem": "VOUDOO",
+  "tokens": {
+    "PENNIES": {
+      "address": "0x2a92CAA3b01E64634e2E95AA533a5570a76c19A7",
+      "role": "Utility/Currency",
+      "weight": 0.4
+    },
+    "PIDX": {
+      "address": "0x95c7e2d53f4b615a50d4468dfd5aff850dc17f0c",
+      "role": "Index/Backbone",
+      "weight": 1.0
+    },
+    "SGUIDE": {
+      "address": "0xb50DCEb0570557B9B7FE43D8cBDc9B3457D3dc5a",
+      "role": "Governance/Spirit",
+      "weight": 0.3
+    },
+    "VDOO": {
+      "address": "0x38e4f08D08b4D772A7B75669C356b4749dd2d30b",
+      "role": "Reserve/Infinity",
+      "weight": 0.2
+    }
+  },
+  "support_status": {}
+}

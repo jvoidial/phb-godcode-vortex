@@ -1,0 +1,1909 @@
+nohup: ignoring input
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:21:58 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:22:03 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:22:08 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:22:14 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:22:19 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:22:24 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:22:29 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:22:35 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:22:40 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:22:45 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:22:50 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:22:55 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:23:01 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:23:06 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:23:11 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:23:17 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:23:22 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:23:27 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:23:32 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:23:38 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:23:43 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:23:48 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:23:53 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:23:58 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:24:04 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:24:09 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:24:14 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:24:19 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:24:25 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:24:30 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:24:35 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:24:40 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:24:46 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:24:51 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:24:56 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:25:01 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:25:06 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:25:12 BST 2026
+🔒 Secure CORS server running on port 8000
+   Allowed origin: https://jvoidial.github.io
+   Serving directory: /data/data/com.termux/files/home/phb-godcode-vortex
+   Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 40, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:25:17 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:25:22 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:25:27 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:25:33 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:25:38 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:25:43 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:25:48 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:25:54 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:25:59 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:26:04 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:26:09 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:26:14 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:26:20 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:26:25 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:26:30 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:26:35 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:26:41 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:26:46 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:26:51 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:26:56 BST 2026
+Terminated                 python3 serve_cors_secure.py
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:27:01 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:27:06 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:27:12 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:27:17 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:27:22 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:27:27 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:27:33 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:27:38 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:27:43 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:27:48 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:27:53 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:27:59 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:28:04 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 26, in <module>
+    with socketserver.TCPServer(("", PORT), SecureCORSHandler) as httpd:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:28:09 BST 2026
+Terminated                 python3 serve_cors_secure.py
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:36:33 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:36:38 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:36:44 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:36:49 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:36:54 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:36:59 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:37:04 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:37:10 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:37:15 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:37:20 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:37:25 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:37:31 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:37:36 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:37:41 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:37:46 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:37:52 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:37:57 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:38:02 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:38:07 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:38:12 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:38:18 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:38:23 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:38:28 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:38:33 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:38:39 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:38:44 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:38:49 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:38:54 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:38:59 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:39:05 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:39:10 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:39:15 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:39:20 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:39:26 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:39:31 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:39:36 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:39:41 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:39:46 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:39:52 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:39:57 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:40:02 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:40:07 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:40:12 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:40:18 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:40:23 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:40:28 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:40:33 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:40:39 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:40:44 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:40:49 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:40:54 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:41:00 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 17, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:41:05 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:41:10 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:41:15 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:41:21 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:41:26 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:41:31 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:41:36 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:41:41 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:41:47 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:41:52 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:41:57 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:42:02 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:42:08 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:42:13 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:42:18 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:42:23 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:42:28 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...
+🔄 Starting PHB CORS server (secure) at Mon Sep  7 04:42:34 BST 2026
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/phb-godcode-vortex/serve_cors_secure.py", line 10, in <module>
+    httpd = socketserver.TCPServer(('', PORT), CORSHandler)
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+⚠️ Server stopped. Restarting in 5 seconds...

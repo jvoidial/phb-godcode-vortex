@@ -1,0 +1,33 @@
+{
+  "eco_warrior": {
+    "mode": "NO_MONEY",
+    "strategy": "coherence_persistence",
+    "tokens": {
+      "PENNIES": {
+        "coherence": 0.1,
+        "voxel_energy": 100.0,
+        "threshold": 0.3,
+        "status": "NEEDS_ALIGNMENT"
+      },
+      "PIDX": {
+        "coherence": 1.0,
+        "voxel_energy": 1000.0,
+        "threshold": 0.5,
+        "status": "ALIGNED"
+      },
+      "SGUIDE": {
+        "coherence": 0.1,
+        "voxel_energy": 100.0,
+        "threshold": 0.3,
+        "status": "NEEDS_ALIGNMENT"
+      },
+      "VDOO": {
+        "coherence": 0.1,
+        "voxel_energy": 100.0,
+        "threshold": 0.3,
+        "status": "NEEDS_ALIGNMENT"
+      }
+    },
+    "total_voxel_energy": 1300.0
+  }
+}

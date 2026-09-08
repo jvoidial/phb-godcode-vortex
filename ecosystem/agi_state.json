@@ -1,0 +1,28 @@
+{
+  "agi_knowledge": {
+    "voxel_energies": {
+      "PIDX": {
+        "energy": 0.0,
+        "price": 0,
+        "liquidity": 0
+      },
+      "SGUIDE": {
+        "energy": 0.0,
+        "price": 0,
+        "liquidity": 0
+      },
+      "VDOO": {
+        "energy": 0.0,
+        "price": 0,
+        "liquidity": 0
+      },
+      "PENNIES": {
+        "energy": 0.0,
+        "price": 0,
+        "liquidity": 0
+      }
+    },
+    "updated": 1788256440.4974828,
+    "status": "FREE_ECO_WARRIOR_RUNNING"
+  }
+}

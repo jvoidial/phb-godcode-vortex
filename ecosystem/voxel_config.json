@@ -1,0 +1,29 @@
+{
+  "voxels": {
+    "PIDX": {
+      "energy": 0.1942551260424385,
+      "threshold": 0.5,
+      "decay": 0.01,
+      "address": "0x95c7e2d53f4b615a50d4468dfd5aff850dc17f0c"
+    },
+    "SGUIDE": {
+      "energy": 0.0922776153738076,
+      "threshold": 0.4,
+      "decay": 0.008,
+      "address": "0xb50DCEb0570557B9B7FE43D8cBDc9B3457D3dc5a"
+    },
+    "VDOO": {
+      "energy": 0.0,
+      "threshold": 0.4,
+      "decay": 0.008,
+      "address": "0x38e4f08D08b4D772A7B75669C356b4749dd2d30b"
+    },
+    "PENNIES": {
+      "energy": 0.0,
+      "threshold": 0.3,
+      "decay": 0.005,
+      "address": "0x2a92CAA3b01E64634e2E95AA533a5570a76c19A7"
+    }
+  },
+  "jumpstart_energy": 0.6
+}
